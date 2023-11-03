@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Fredoka One', cursive;
+}
+body{
+    background-color: dodgerblue;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sub-con{
+    text-align: center;
+}
+.heading{
+    font-size: 110px;
+    margin-top: 75px;
+    color: #FAB201;
+    -webkit-text-stroke: 7px  white;
+}
+.boxs{
+    height: 43%;
+    width: 21%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 12px;
+}
+.credit{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 80px;
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow : 2px 2px Silver ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAB201;
+    font-size: 80px;
+}
+
